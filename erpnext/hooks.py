@@ -1,19 +1,19 @@
 from __future__ import unicode_literals
 from frappe import _
 
-app_name = "erpnext"
-app_title = "ERPNext"
-app_publisher = "Frappe Technologies Pvt. Ltd."
-app_description = """ERP made simple"""
+app_name = "retail-erp"
+app_title = "Pro Enterprise Retail"
+app_publisher = "Pro Enterprise Ventures Limited"
+app_description = """Retail made simple"""
 app_icon = "fa fa-th"
 app_color = "#e74c3c"
-app_email = "info@erpnext.com"
+app_email = "hello@erp.co.zm"
 app_license = "GNU General Public License (v3)"
-source_link = "https://github.com/frappe/erpnext"
+source_link = "https://github.com/ProEnterprise/retail-erp"
 
 develop_version = '10.x.x-develop'
 
-error_report_email = "support@erpnext.com"
+error_report_email = "support@erp.co.zm"
 
 app_include_js = "assets/js/erpnext.min.js"
 app_include_css = "assets/css/erpnext.css"
