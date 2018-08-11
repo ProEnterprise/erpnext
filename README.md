@@ -2,20 +2,23 @@
 
 [https://erp.co.zm](https://erp.co.zm)
 
-Includes: Accounting, Inventory, Manufacturing, CRM, Sales, Purchase, Project Management, HRMS. Requires MariaDB.
+Includes: Accounting, Inventory, Manufacturing, CRM, Sales, Purchase, HRMS. Requires MariaDB.
 
-ERPNext is built on the [Frappé](https://github.com/frappe/frappe) Framework, a full-stack web app framework in Python & JavaScript.
+Pro Enterprise Retail is built on the [Frappé](https://github.com/frappe/frappe) Framework, a full-stack web app framework in Python & JavaScript. forked from ERPNext.
 
-- [User Guide](https://erpnext.org/docs/user)
-- [Discussion Forum](https://discuss.erpnext.com/)
 
 ---
 
 ### Full Install
 
-The Easy Way: our install script for bench will install all dependencies (e.g. MariaDB). See https://github.com/frappe/bench for more details.
+The Easy Way: the install script for bench will install all dependencies (e.g. MariaDB). See https://github.com/frappe/bench for more details.
 
-New passwords will be created for the ERPNext "Administrator" user, the MariaDB root user, and the frappe user (the script displays the passwords and saves them to ~/frappe_passwords.txt).
+New passwords will be created for the Pro Enterprise Retail "Administrator" user, the MariaDB root user, and the frappe user (the script displays the passwords and saves them to ~/frappe_passwords.txt).
+
+     $ cd frappe-bench
+     $ bench get-app retail-erp https://github.com/ProEnterprise/retail-erp.git
+     $ bench new-site mysite
+     $ bench --site mysite install-app retail-erp
 
 ### Virtual Image
 
@@ -39,8 +42,6 @@ The ERPNext code is licensed as GNU General Public License (v3) and the Document
 
 1. [Issue Guidelines](https://github.com/frappe/erpnext/wiki/Issue-Guidelines)
 1. [Pull Request Requirements](https://github.com/frappe/erpnext/wiki/Contribution-Guidelines)
-1. [Translations](https://translate.erpnext.com)
-1. [Chart of Accounts](https://charts.erpnext.com)
 
 ---
 
