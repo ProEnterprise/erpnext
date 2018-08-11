@@ -1,8 +1,6 @@
-# ERPNext - ERP made simple
+# Pro Enterprise Retail - Retailing made simple
 
-[![Build Status](https://travis-ci.org/frappe/erpnext.png)](https://travis-ci.org/frappe/erpnext) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/frappe/erpnext?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-[https://erpnext.com](https://erpnext.com)
+[https://erp.co.zm](https://erp.co.zm)
 
 Includes: Accounting, Inventory, Manufacturing, CRM, Sales, Purchase, Project Management, HRMS. Requires MariaDB.
 
