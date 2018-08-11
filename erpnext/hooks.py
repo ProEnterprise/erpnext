@@ -60,7 +60,7 @@ domains = {
 }
 
 website_generators = ["Item Group", "Item", "BOM", "Sales Partner",
-	"Job Opening", "Student Admission"]
+	"Job Opening"]
 
 website_context = {
 	"favicon": 	"/assets/erpnext/images/favicon.png",
@@ -119,7 +119,7 @@ website_route_rules = [
 	},
 	{"from_route": "/jobs", "to_route": "Job Opening"},
 	{"from_route": "/boms", "to_route": "BOM"},
-	{"from_route": "/timesheets", "to_route": "Timesheet"},
+	{"from_route": "/timesheets", "to_route": "Timesheet"}
 ]
 
 standard_portal_menu_items = [
@@ -133,13 +133,13 @@ standard_portal_menu_items = [
 	{"title": _("Addresses"), "route": "/addresses", "reference_doctype": "Address"},
 	{"title": _("Timesheets"), "route": "/timesheets", "reference_doctype": "Timesheet", "role":"Customer"},
 	{"title": _("Timesheets"), "route": "/timesheets", "reference_doctype": "Timesheet", "role":"Customer"},
-	{"title": _("Newsletter"), "route": "/newsletters", "reference_doctype": "Newsletter"},
+	{"title": _("Newsletter"), "route": "/newsletters", "reference_doctype": "Newsletter"}
 	
 ]
 
 default_roles = [
 	{'role': 'Customer', 'doctype':'Contact', 'email_field': 'email_id'},
-	{'role': 'Supplier', 'doctype':'Contact', 'email_field': 'email_id'},
+	{'role': 'Supplier', 'doctype':'Contact', 'email_field': 'email_id'}
 ]
 
 has_website_permission = {
